@@ -23,6 +23,8 @@ footer {
 
 /* despite this being a bootstap class, you can add extra css to it */
 .jumbotron {
+  /* margin 0 removes the spacing between the jumbotron and the nav */
+  margin: 0;
   padding: 30px;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #601068);
   color: #fff;
@@ -32,4 +34,8 @@ footer {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
+}
+
+.navbar {
+  background-color: #901cad;
 }
