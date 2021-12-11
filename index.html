@@ -169,20 +169,23 @@
         </div>
       </div>
       <div class="row row-content">
+        <!-- Note although col-sm-6 was requested in the assignment, col-sm-9 looks better -->
         <div class="col-sm-6 mx-auto">
           <div class="card">
             <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
             <div class="card-body">
               <form id="reserveForm">
                 <div class="form-group row">
-                  <label class="col-sm-6 col-form-label" for=""
+                  <label class="col-sm-6 col-form-label" for="numCampers"
                     >Number of Campers</label
                   >
                   <div class="col">
-                    <select class="form-control" name="" id="">
-                      <option value="select" name="numCampers" id="numCampers">
-                        Select...
-                      </option>
+                    <select
+                      class="form-control"
+                      name="numCampers"
+                      id="numCampers"
+                    >
+                      <option value="select">Select...</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -200,7 +203,7 @@
                       type="date"
                       id="date"
                       name="date"
-                      placeholder="date"
+                      placeholder="MM/DD/YYYY"
                     />
                   </div>
                 </div>
