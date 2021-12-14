@@ -36,6 +36,16 @@ header h2 {
   min-height: 200px;
 }
 
+/* main nav */
+
 .navbar {
   background-color: #901cad;
+}
+
+/* about us pane */
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
 }
