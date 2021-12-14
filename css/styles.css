@@ -44,8 +44,17 @@ header h2 {
 
 /* about us pane */
 
-.tab-content {
+/* removed .tab-content as this for the tab styling which is no longer visible */
+
+/* .tab-content {
   border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
+} */
+
+/* Accordion a styling */
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
 }
