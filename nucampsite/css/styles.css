@@ -1,11 +1,11 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 h2 {
@@ -17,7 +17,8 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, #fff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cec8ff), to(white));
+  background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
 }
 
@@ -26,8 +27,9 @@ header h2 {
   /* margin 0 removes the spacing between the jumbotron and the nav */
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #601068);
-  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5637dd), color-stop(#3046c5), to(#60106b));
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  color: white;
 }
 
 .row-content {
@@ -37,21 +39,17 @@ header h2 {
 }
 
 /* main nav */
-
 .navbar {
   background-color: #901cad;
 }
 
 /* about us pane */
-
 /* removed .tab-content as this for the tab styling which is no longer visible */
-
 /* .tab-content {
   border: 1px solid #ddd;
   border-top: none;
   padding: 10px;
 } */
-
 /* Accordion a styling */
 a,
 a:hover {
@@ -61,7 +59,6 @@ a:hover {
 
 /* index carousel */
 .carousel-caption {
-  /* last is the alpha, 0.5 = 50% black */
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -76,10 +73,10 @@ a:hover {
   bottom: 0;
   z-index: 100;
 } */
-
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 100;
 }
+/*# sourceMappingURL=styles.css.map */
