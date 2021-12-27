@@ -62,9 +62,16 @@
             Tooltip button end -->
 
             <!-- Reserve Modal btn -->
-            <a
+            <!-- <a
               data-toggle="modal"
               data-target="#reserveModal"
+              role="button"
+              class="btn btn-lg btn-info text-nowrap"
+              >Reserve Campsite</a
+            > -->
+            <!-- Reserve Modal Updated Wk 4 -->
+            <a
+              id="reserveButton"
               role="button"
               class="btn btn-lg btn-info text-nowrap"
               >Reserve Campsite</a
@@ -78,7 +85,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-          <div class="modal-header bg-info text-white">
+          <div class="modal-header">
             <h3 class="modal-title">Reserve a Campsite.</h3>
             <button type="button" class="close" data-dismiss="modal">
               &times;
@@ -209,8 +216,14 @@
             </li>
           </ul>
           <!-- login and modal -->
-          <span class="navbar-text ml-auto">
+          <!-- <span class="navbar-text ml-auto">
             <a role="button" data-toggle="modal" data-target="#loginModal">
+              <i class="fa fa-sign-in"></i> Login
+            </a>
+          </span> -->
+          <!-- Updated login modal -->
+          <span class="navbar-text ml-auto">
+            <a id="loginButton" role="button">
               <i class="fa fa-sign-in"></i> Login
             </a>
           </span>

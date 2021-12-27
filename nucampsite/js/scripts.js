@@ -15,6 +15,21 @@ $(function () {
   });
 });
 
+// Activates the reserve modal 
+
+$(function () {
+  $('#reserveButton').click(function () {
+    $('#reserveModal').modal('show')
+  });
+});
+
+// Activates the login
+
+$(function () {
+  $('#loginButton').click(function () {
+    $('#loginModal').modal('show')
+  });
+});
 
 //  Activates the tooltips
 // $(function () {
