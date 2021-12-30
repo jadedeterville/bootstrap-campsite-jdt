@@ -13,19 +13,19 @@ $(function () {
       $('#carouselButton').children('i').addClass('fa-pause');
     }
   });
-});
+//   });
 
-// Activates the reserve modal 
+// Activates the reserve modal
 
-$(function () {
+//   $(function () {
   $('#reserveButton').click(function () {
     $('#reserveModal').modal('show')
   });
-});
+//   });
 
 // Activates the login
 
-$(function () {
+//   $(function () {
   $('#loginButton').click(function () {
     $('#loginModal').modal('show')
   });
